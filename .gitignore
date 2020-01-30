@@ -1,0 +1,10 @@
+data/
+*.pyc
+bin/
+lib/
+share/
+etc/
+include/
+../.DS_Store
+.DS_Store
+
