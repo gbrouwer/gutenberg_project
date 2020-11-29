@@ -16,7 +16,7 @@ if __name__ == '__main__':
     cmd2 = 'git config --local user.email gbrouwer5151@gmail.com'
 
     #Set Remote
-    cmd3 = 'git remote add origin https://github.com/gbrouwer/' + repo + '.git'
+    cmd3 = 'git remote set-url origin https://github.com/gbrouwer/' + repo + '.git'
 
     #Add/Commit and Push everthing
     cmd4 = 'git add .'
